@@ -1,4 +1,6 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+
 $get = $_GET['get'];
 $mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/linear/' . $get;
 
